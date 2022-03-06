@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: whitesmoke;
+}
+
+header {
+    width: 100%;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+}
+
+header .header-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header small {
+    color: #ffc107;
+}
+
+header .header-content {
+    width: 100%;
+    display: inline-flex;
+}
+
+header .app-name {
+    width: 30%;
+}
+
+header .app-navi {
+    width: 70%;
+    text-align: right !important;
+}
+
+header small,
+header h4 {
+    margin: 0;
+}
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+
+section .main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section .to-dos-cards {
+    height: 500px;
+    padding: 5% 0 0 0;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+section .to-do-card {
+    width: 15%;
+    background: #333333;
+    color: #000000;
+    border-radius: 5px;
+    margin: 10px;
+    float: left;
+    height: 200px;
+}
+
+section .to-do-card-body,
+section .to-do-card-footer {
+    padding: 10px;
+    color: #ffffff;
+}
+
+.btn-warning {
+    margin: 10px;
+}
