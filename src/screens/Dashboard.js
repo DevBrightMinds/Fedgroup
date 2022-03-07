@@ -67,11 +67,11 @@ const Dashboard = () => {
             <section>
                 <div className="main-container">
                     <h4>Complete ToDos</h4>
-                    <div className="incomplete-todos" style={{ display: "inline-flex" }}>
+                    <div className="incomplete-todos" style={{ width: "100%" }}>
                         <UserCards list={mostCompleted} />
                     </div>
                     <h4>In Complete ToDos</h4>
-                    <div className="incomplete-todos" style={{ display: "inline-flex" }}>
+                    <div className="incomplete-todos" style={{ width: "100%" }}>
                         <UserCards list={mostInComplete} />
                     </div>
                 </div>

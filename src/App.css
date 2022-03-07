@@ -82,3 +82,47 @@ section .to-do-card-footer {
 .btn-warning {
     margin: 10px;
 }
+
+.users-card {
+    background: #333333;
+    color: #ffffff;
+    width: 30%;
+    margin: 30px;
+}
+
+.incomplete-todos {
+    display: inline-flex;
+}
+
+@media screen and (max-width: 1024px) {
+    .incomplete-todos {
+        display: inline-grid;
+    }
+
+    .users-card {
+        width: 100%;
+        margin: 0px 0 10px 0;
+    }
+
+    .btn {
+        text-align: left !important;
+    }
+
+    header .app-name {
+        width: 100%;
+    }
+
+    header .app-navi {
+        width: 100%;
+        display: inline-grid;
+    }
+
+    header .header-content {
+        display: inline-grid;
+    }
+
+    section .to-do-card {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+}
