@@ -15,9 +15,9 @@ const Dashboard = () => {
     useEffect(() => {
         let usersData = [];
 
-        const grouped = toDosList.reduce((item, { completed, ...rest }) => ({
+        const grouped = toDosList.reduce((item, { completed, ...element }) => ({
             ...item,
-            [completed]: [...(item[completed] ?? []), { ...rest, completed }]
+            [completed]: [...(item[completed] ?? []), { ...element, completed }]
         }), {});
 
         const usersCompleted = grouped.true;
